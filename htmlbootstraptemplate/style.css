@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 115px;
+    background-color: #2c3e50;
+    padding: 40px 130px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    padding: 5px 0;
+}
+
+#logo {
+    color: #FFF;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 31px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+#navbar ul li a {
+    color: #FFF;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#hero {
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 108px 0;
+}
+
+.hero-image {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#hero img {
+    width: 283px;
+    height: 283px;
+}
+
+#hero .hero-caption h1 {
+    font-size: 71px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+#hero .hero-caption span {
+    font-size: 48px;
+    color: #FFF;
+    margin: 6px;
+}
+
+#hero .hero-caption span.line {
+    width: 125px;
+    height: 5px;
+    background-color: #FFF;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+#hero .hero-caption p {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#portfolio {
+    padding: 108px 0;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+#portfolio div span {
+    font-size: 48px;
+    color: #2c3e50;
+    margin: 6px;
+}
+
+#portfolio div span.line {
+    width: 125px;
+    height: 5px;
+    background-color: #2c3e50;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.card {
+    background-color: #98636f;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 15px;
+}
+
+#about {
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 98px 0;
+}
+
+#about h2 {
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-weight: 700;
+}
+
+#about div span {
+    font-size: 48px;
+    color: #FFF;
+    margin: 6px;
+}
+
+#about div span.line {
+    width: 125px;
+    height: 5px;
+    background-color: #FFF;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+#about p {
+    width: 25%;
+    margin-right: 25px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+#about .text {
+    margin-bottom: 60px;
+}
+
+#about .linkBtn {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    border: 3px solid #FFF;
+    border-radius: 8px;
+}
+
+#contactme {
+    text-align: center;
+    padding: 98px 0;
+}
+
+#contactme h2 {
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+#contactme div span {
+    font-size: 48px;
+    color: #2c3e50;
+    margin: 6px;
+}
+
+#contactme div span.line {
+    width: 125px;
+    height: 5px;
+    background-color: #2c3e50;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+#contactme form input {
+    width: 48%;
+    padding: 25px 0;
+    font-size: 24px;
+    border: 1px solid transparent;
+    border-bottom-color: #ced4da;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+#contactme textarea {
+    width: 48%;
+    padding: 25px 0;
+    font-size: 24px;
+    border: 1px solid transparent;
+    border-bottom-color: #ced4da;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+#contactme button {
+    padding: 25px;
+    background-color: #6bd4bf;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #FFF;
+}
+
+#information {
+    text-align: center;
+    padding: 98px 0;
+    background-color: #2c3e50;
+}
+
+#information table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#information h3,
+#information h3,
+#information h3 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#information p,
+#information p,
+#information p {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #1a252f;
+}
+
+#footer p {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
